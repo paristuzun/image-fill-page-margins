@@ -1,0 +1,101 @@
+.section-text {
+    background: #f8fafb;
+}
+.section-text .picture {
+    width: 48%;
+    float: left;
+}
+@media (max-width: 992px) {
+    .section-text .picture {
+        width: 100%;
+   }
+}
+.section-text .picture img {
+    height: 491px;
+}
+@media (min-width: 992px) {
+    .section-text .picture img {
+        object-fit: cover;
+   }
+}
+@media (max-width: 992px) {
+    .section-text .picture img {
+        height: auto;
+   }
+}
+@media (max-width: 768px) {
+    .section-text .picture img {
+        margin: 0 auto;
+   }
+}
+@media (max-width: 768px) {
+    .section-text .icons img {
+        margin: -65px auto 0 auto;
+   }
+}
+.section-text .text-wrapper {
+    width: 50%;
+    float: right;
+    padding-top: 94px;
+    padding-left: 78px;
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .section-text .text-wrapper {
+        padding-left: 30px;
+   }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .section-text .text-wrapper {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        clear: both;
+        padding: 40px 20px;
+   }
+}
+@media (max-width: 768px) {
+    .section-text .text-wrapper {
+        width: 100%;
+        padding: 35px 30px 60px 30px;
+        text-align: center;
+   }
+}
+.section-text .text-wrapper h2 {
+    margin-bottom: 35px;
+}
+@media (max-width: 768px) {
+    .section-text .text-wrapper h2 {
+        text-align: center;
+        margin-bottom: 27px;
+   }
+}
+.section-text .text-wrapper p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 50px;
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .section-text .text-wrapper p {
+        font-size: 16px;
+        margin-bottom: 35px;
+   }
+}
+@media (max-width: 992px) {
+    .section-text .text-wrapper p br {
+        display: none;
+   }
+}
+@media (max-width: 768px) {
+    .section-text .text-wrapper p {
+        font-size: 15px;
+        text-align: left;
+        line-height: 25px;
+   }
+}
+.section-text .text-wrapper .btn-primary {
+    font-size: 19px;
+}
+.section-text.subpage .btn-primary {
+    padding: 0;
+    width: 195px;
+}
