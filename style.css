@@ -1,10 +1,25 @@
+* {
+    border: 1px solid #555;
+}
 /* Scss Document */
 .section-text {
     background: #f8fafb;
+    border: 2px solid red;
+    overflow: auto;
 }
 .section-text .picture {
     width: 48%;
     float: left;
+    border: 2px solid #000;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visible-xs {
+    display: none!important;
 }
 @media (max-width: 992px) {
     .section-text .picture {
@@ -99,11 +114,6 @@
 .section-text.subpage .btn-primary {
     padding: 0;
     width: 195px;
-}
-.img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 @media (min-width: 1200px) {
 .container {
