@@ -1,3 +1,4 @@
+/* Scss Document */
 .section-text {
     background: #f8fafb;
 }
@@ -98,4 +99,19 @@
 .section-text.subpage .btn-primary {
     padding: 0;
     width: 195px;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width: 1200px) {
+.container {
+    width: 1180px;
+}
+}
+@media (min-width: 992px) {
+.container {
+    width: 970px;
+}
 }
